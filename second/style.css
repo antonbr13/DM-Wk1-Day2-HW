@@ -8,12 +8,6 @@ html, body {
 }
 
 
-.column-left { 
-  height: 100%;
-  float: left; 
-  width: 33.3%; 
-  background-color: green;
-  }
   
 .column-right { 
   height: 100%;
@@ -23,6 +17,13 @@ html, body {
   background-color: yellowgreen;
  }
 
+.column-left { 
+  height: 100%;
+  float: left; 
+  width: 33.3%; 
+  background-color: green;
+  }
+
 .column-center { 
   height: 100%;
   display: inline-block;
@@ -31,9 +32,17 @@ html, body {
  }
 
 .image {
-  background-color: black;
+  background-color: red;
   position: absolute;
-  height: 35%;
+  height: 120px;
   width: 100%;
   bottom: 0;
+  
+}
+
+p {
+  position: relative;
+  text-align: center;
+  top: 40% ;
+ 
 }
